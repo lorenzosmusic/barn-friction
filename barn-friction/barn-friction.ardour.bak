@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="barn-friction" sample-rate="44100" end-is-free="0" id-counter="10322" name-counter="1" event-counter="6825" vca-counter="1">
-  <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 1:5.12.0-3ubuntu4"/>
+<Session version="3002" name="barn-friction" sample-rate="44100" end-is-free="0" id-counter="19759" name-counter="1" event-counter="7249" vca-counter="1">
+  <ProgramVersion created-with="Ardour 1:5.12.0-3ubuntu4" modified-with="Ardour 1:5.12.0-3ubuntu4.1"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
     <Port name="MIDI Clock out" direction="output"/>
@@ -76,6 +76,22 @@
     <Source name="bass-1.mid" type="midi" flags="Writable,CanRename" id="4589" origin=""/>
     <Source name="bass-2.mid" type="midi" flags="Writable,CanRename" id="4759" origin=""/>
     <Source name="violin-1.mid" type="midi" flags="Writable,CanRename" id="8183" origin=""/>
+    <Source name="Audio 1-1.wav" type="audio" flags="" id="17785" captured-for="Audio 1" channel="0" origin="" gain="1"/>
+    <Source name="Audio 2-1.wav" type="audio" flags="" id="17830" captured-for="Audio 2" channel="0" origin="" gain="1"/>
+    <Source name="Audio 3-1.wav" type="audio" flags="" id="17875" captured-for="Audio 3" channel="0" origin="" gain="1"/>
+    <Source name="Audio 4-1.wav" type="audio" flags="" id="17920" captured-for="Audio 4" channel="0" origin="" gain="1"/>
+    <Source name="Audio 5-1.wav" type="audio" flags="" id="17965" captured-for="Audio 5" channel="0" origin="" gain="1"/>
+    <Source name="Audio 6-1.wav" type="audio" flags="" id="18010" captured-for="Audio 6" channel="0" origin="" gain="1"/>
+    <Source name="Audio 7-1.wav" type="audio" flags="" id="18055" captured-for="Audio 7" channel="0" origin="" gain="1"/>
+    <Source name="Audio 8-1.wav" type="audio" flags="" id="18100" captured-for="Audio 8" channel="0" origin="" gain="1"/>
+    <Source name="Audio 9-1.wav" type="audio" flags="" id="18145" captured-for="Audio 9" channel="0" origin="" gain="1"/>
+    <Source name="Audio 10-1.wav" type="audio" flags="" id="18190" captured-for="Audio 10" channel="0" origin="" gain="1"/>
+    <Source name="Audio 11-1.wav" type="audio" flags="" id="18235" captured-for="Audio 11" channel="0" origin="" gain="1"/>
+    <Source name="Audio 12-1.wav" type="audio" flags="" id="18280" captured-for="Audio 12" channel="0" origin="" gain="1"/>
+    <Source name="Audio 13-1.wav" type="audio" flags="" id="18325" captured-for="Audio 13" channel="0" origin="" gain="1"/>
+    <Source name="Audio 14-1.wav" type="audio" flags="" id="18370" captured-for="Audio 14" channel="0" origin="" gain="1"/>
+    <Source name="Audio 15-1.wav" type="audio" flags="" id="18415" captured-for="Audio 15" channel="0" origin="" gain="1"/>
+    <Source name="Audio 16-1.wav" type="audio" flags="" id="18460" captured-for="Audio 16" channel="0" origin="" gain="1"/>
   </Sources>
   <Regions>
     <Region name="Audio-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="513024" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="226" type="audio" first-edit="nothing" source-0="203" master-source-0="203" channels="1"/>
@@ -89,10 +105,24 @@
     <Region name="bass-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3580" length="485100" position="705600" beat="24" sync-position="3580" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0.12176870748299251" length-beats="16.5" id="4679" type="midi" first-edit="nothing" source-0="4589" master-source-0="4589"/>
     <Region name="bass-1.22" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3580" length="220500" position="10098900" beat="343.5" sync-position="3580" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="20" start-beats="0.12176870748299251" length-beats="7.5" id="4754" type="midi" first-edit="nothing" source-0="4589" master-source-0="4589"/>
     <Region name="bass-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3580" length="470400" position="220500" beat="7.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="21" start-beats="0.12176870748299251" length-beats="16" id="4761" type="midi" first-edit="nothing" source-0="4759" master-source-0="4759"/>
+    <Region name="Audio 1-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19360" type="audio" first-edit="nothing" source-0="17785" master-source-0="17785" channels="1"/>
+    <Region name="Audio 2-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19384" type="audio" first-edit="nothing" source-0="17830" master-source-0="17830" channels="1"/>
+    <Region name="Audio 3-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19408" type="audio" first-edit="nothing" source-0="17875" master-source-0="17875" channels="1"/>
+    <Region name="Audio 4-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19432" type="audio" first-edit="nothing" source-0="17920" master-source-0="17920" channels="1"/>
+    <Region name="Audio 5-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19456" type="audio" first-edit="nothing" source-0="17965" master-source-0="17965" channels="1"/>
+    <Region name="Audio 6-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19481" type="audio" first-edit="nothing" source-0="18010" master-source-0="18010" channels="1"/>
+    <Region name="Audio 7-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19506" type="audio" first-edit="nothing" source-0="18055" master-source-0="18055" channels="1"/>
+    <Region name="Audio 8-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19532" type="audio" first-edit="nothing" source-0="18100" master-source-0="18100" channels="1"/>
+    <Region name="Audio 9-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19557" type="audio" first-edit="nothing" source-0="18145" master-source-0="18145" channels="1"/>
+    <Region name="Audio 10-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19583" type="audio" first-edit="nothing" source-0="18190" master-source-0="18190" channels="1"/>
+    <Region name="Audio 11-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19608" type="audio" first-edit="nothing" source-0="18235" master-source-0="18235" channels="1"/>
+    <Region name="Audio 12-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19633" type="audio" first-edit="nothing" source-0="18280" master-source-0="18280" channels="1"/>
+    <Region name="Audio 13-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19658" type="audio" first-edit="nothing" source-0="18325" master-source-0="18325" channels="1"/>
+    <Region name="Audio 14-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19684" type="audio" first-edit="nothing" source-0="18370" master-source-0="18370" channels="1"/>
+    <Region name="Audio 15-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19709" type="audio" first-edit="nothing" source-0="18415" master-source-0="18415" channels="1"/>
+    <Region name="Audio 16-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19735" type="audio" first-edit="nothing" source-0="18460" master-source-0="18460" channels="1"/>
   </Regions>
-  <Selection>
-    <StripableAutomationControl stripable="402" control="0" order="0"/>
-  </Selection>
+  <Selection/>
   <Locations>
     <Location id="247" name="session" start="205800" end="10319400" flags="IsSessionRange" locked="0" position-lock-style="AudioTime"/>
     <Location id="8082" name="Loop" start="220500" end="5865300" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime"/>
@@ -107,12 +137,44 @@
       <Controllable name="solo-safe" id="70" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="Master" id="82" direction="Input" default-type="audio" user-latency="0">
         <Port type="audio" name="Master/audio_in 1">
+          <Connection other="Audio 1/audio_out 1"/>
+          <Connection other="Audio 10/audio_out 1"/>
+          <Connection other="Audio 11/audio_out 1"/>
+          <Connection other="Audio 12/audio_out 1"/>
+          <Connection other="Audio 13/audio_out 1"/>
+          <Connection other="Audio 14/audio_out 1"/>
+          <Connection other="Audio 15/audio_out 1"/>
+          <Connection other="Audio 16/audio_out 1"/>
+          <Connection other="Audio 2/audio_out 1"/>
+          <Connection other="Audio 3/audio_out 1"/>
+          <Connection other="Audio 4/audio_out 1"/>
+          <Connection other="Audio 5/audio_out 1"/>
+          <Connection other="Audio 6/audio_out 1"/>
+          <Connection other="Audio 7/audio_out 1"/>
+          <Connection other="Audio 8/audio_out 1"/>
+          <Connection other="Audio 9/audio_out 1"/>
           <Connection other="banjo/audio_out 1"/>
           <Connection other="barn-beat2/audio_out 1"/>
           <Connection other="bass/audio_out 1"/>
           <Connection other="violin/audio_out 1"/>
         </Port>
         <Port type="audio" name="Master/audio_in 2">
+          <Connection other="Audio 1/audio_out 2"/>
+          <Connection other="Audio 10/audio_out 2"/>
+          <Connection other="Audio 11/audio_out 2"/>
+          <Connection other="Audio 12/audio_out 2"/>
+          <Connection other="Audio 13/audio_out 2"/>
+          <Connection other="Audio 14/audio_out 2"/>
+          <Connection other="Audio 15/audio_out 2"/>
+          <Connection other="Audio 16/audio_out 2"/>
+          <Connection other="Audio 2/audio_out 2"/>
+          <Connection other="Audio 3/audio_out 2"/>
+          <Connection other="Audio 4/audio_out 2"/>
+          <Connection other="Audio 5/audio_out 2"/>
+          <Connection other="Audio 6/audio_out 2"/>
+          <Connection other="Audio 7/audio_out 2"/>
+          <Connection other="Audio 8/audio_out 2"/>
+          <Connection other="Audio 9/audio_out 2"/>
           <Connection other="banjo/audio_out 2"/>
           <Connection other="barn-beat2/audio_out 2"/>
           <Connection other="bass/audio_out 2"/>
@@ -372,7 +434,7 @@
           <Port symbol="hp_mode" value="1"/>
           <Port symbol="hp_q" value="0.7070000171661377"/>
           <Port symbol="lp_active" value="0"/>
-          <Port symbol="lp_freq" value="18000"/>
+          <Port symbol="lp_freq" value="20000"/>
           <Port symbol="lp_mode" value="1"/>
           <Port symbol="lp_q" value="0.7070000171661377"/>
           <Port symbol="ls_active" value="0"/>
@@ -392,10 +454,10 @@
           <Port symbol="p2_freq" value="500"/>
           <Port symbol="p2_q" value="1"/>
           <Port symbol="p3_active" value="1"/>
-          <Port symbol="p3_level" value="0.3551483154296875"/>
-          <Port symbol="p3_freq" value="2988.338623046875"/>
-          <Port symbol="p3_q" value="1"/>
-          <Port symbol="p4_active" value="1"/>
+          <Port symbol="p3_level" value="0.1728428453207016"/>
+          <Port symbol="p3_freq" value="4913.94140625"/>
+          <Port symbol="p3_q" value="0.22908678650856018"/>
+          <Port symbol="p4_active" value="0"/>
           <Port symbol="p4_level" value="0.41263657808303833"/>
           <Port symbol="p4_freq" value="7396.56494140625"/>
           <Port symbol="p4_q" value="1"/>
@@ -412,7 +474,7 @@
         <Controllable name="HP Mode" id="10253" flags="" value="1" parameter="17" symbol="hp_mode"/>
         <Controllable name="HP Q" id="10255" flags="" value="0.7070000171661377" parameter="18" symbol="hp_q"/>
         <Controllable name="LP Active" id="10257" flags="" value="0" parameter="19" symbol="lp_active"/>
-        <Controllable name="LP Freq" id="10259" flags="" value="18000" parameter="20" symbol="lp_freq"/>
+        <Controllable name="LP Freq" id="10259" flags="" value="20000" parameter="20" symbol="lp_freq"/>
         <Controllable name="LP Mode" id="10261" flags="" value="1" parameter="21" symbol="lp_mode"/>
         <Controllable name="LP Q" id="10263" flags="" value="0.7070000171661377" parameter="22" symbol="lp_q"/>
         <Controllable name="LS Active" id="10265" flags="" value="0" parameter="23" symbol="ls_active"/>
@@ -432,10 +494,10 @@
         <Controllable name="Freq 2" id="10293" flags="" value="500" parameter="37" symbol="p2_freq"/>
         <Controllable name="Q 2" id="10295" flags="" value="1" parameter="38" symbol="p2_q"/>
         <Controllable name="F3 Active" id="10297" flags="" value="1" parameter="39" symbol="p3_active"/>
-        <Controllable name="Level 3" id="10299" flags="" value="0.3551483154296875" parameter="40" symbol="p3_level"/>
-        <Controllable name="Freq 3" id="10301" flags="" value="2988.338623046875" parameter="41" symbol="p3_freq"/>
-        <Controllable name="Q 3" id="10303" flags="" value="1" parameter="42" symbol="p3_q"/>
-        <Controllable name="F4 Active" id="10305" flags="" value="1" parameter="43" symbol="p4_active"/>
+        <Controllable name="Level 3" id="10299" flags="" value="0.1728428453207016" parameter="40" symbol="p3_level"/>
+        <Controllable name="Freq 3" id="10301" flags="" value="4913.94140625" parameter="41" symbol="p3_freq"/>
+        <Controllable name="Q 3" id="10303" flags="" value="0.22908678650856018" parameter="42" symbol="p3_q"/>
+        <Controllable name="F4 Active" id="10305" flags="" value="0" parameter="43" symbol="p4_active"/>
         <Controllable name="Level 4" id="10307" flags="" value="0.41263657808303833" parameter="44" symbol="p4_level"/>
         <Controllable name="Freq 4" id="10309" flags="" value="7396.56494140625" parameter="45" symbol="p4_freq"/>
         <Controllable name="Q 4" id="10311" flags="" value="1" parameter="46" symbol="p4_q"/>
@@ -1206,6 +1268,1302 @@ Using the syth violin 1 in the strings yoshimi bank</Comment>
       <Controllable name="rec-safe" id="8128" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="8126" flags="Toggle,RealTime" value="0"/>
       <Diskstream flags="Recordable" playlist="violin.1" name="violin" id="8131" speed="1" capture-alignment="Automatic" record-safe="0"/>
+    </Route>
+    <Route id="12195" name="Audio 1" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="3336693247"/>
+      <Controllable name="solo" id="12203" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12209" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12211" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 1" id="12223" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 1/audio_in 1">
+          <Connection other="system:capture_1"/>
+        </Port>
+      </IO>
+      <IO name="Audio 1" id="12224" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 1/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 1/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12205" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12207" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12202" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12208" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12210" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12204" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12230" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12232" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12206" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12234" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12214" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12218" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12216" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12220" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12222" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12213" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12215" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12217" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12219" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12221" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12226" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12200" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12201" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12225" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12198" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12199" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12227" name="meter-Audio 1" active="1" user-latency="0" type="meter"/>
+      <Processor id="12228" name="Audio 1" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 1" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12214" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12218" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12216" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12220" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12222" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12213" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12215" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12217" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12219" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12221" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12235" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12233" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12231" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 1.1" name="Audio 1" id="12236" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12243" name="Audio 2" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="6" flags="AudioTrack,OrderSet" color="3286608127"/>
+      <Controllable name="solo" id="12251" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12257" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12259" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 2" id="12271" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 2/audio_in 1">
+          <Connection other="system:capture_2"/>
+        </Port>
+      </IO>
+      <IO name="Audio 2" id="12272" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 2/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 2/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12253" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12255" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12250" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12256" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12258" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12252" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12278" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12280" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12254" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12282" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12262" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12266" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12264" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12268" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12270" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12261" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12263" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12265" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12267" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12269" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12274" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12248" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12249" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12273" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12246" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12247" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12275" name="meter-Audio 2" active="1" user-latency="0" type="meter"/>
+      <Processor id="12276" name="Audio 2" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 2" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12262" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12266" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12264" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12268" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12270" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12261" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12263" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12265" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12267" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12269" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12283" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12281" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12279" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 2.1" name="Audio 2" id="12284" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12291" name="Audio 3" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="7" flags="AudioTrack,OrderSet" color="3849630975"/>
+      <Controllable name="solo" id="12299" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12305" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12307" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 3" id="12319" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 3/audio_in 1">
+          <Connection other="system:capture_3"/>
+        </Port>
+      </IO>
+      <IO name="Audio 3" id="12320" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 3/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 3/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12301" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12303" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12298" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12304" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12306" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12300" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12326" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12328" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12302" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12330" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12310" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12314" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12312" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12316" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12318" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12309" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12311" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12313" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12315" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12317" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12322" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12296" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12297" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12321" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12294" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12295" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12323" name="meter-Audio 3" active="1" user-latency="0" type="meter"/>
+      <Processor id="12324" name="Audio 3" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 3" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12310" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12314" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12312" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12316" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12318" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12309" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12311" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12313" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12315" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12317" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12331" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12329" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12327" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 3.1" name="Audio 3" id="12332" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12339" name="Audio 4" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="8" flags="AudioTrack,OrderSet" color="2591221247"/>
+      <Controllable name="solo" id="12347" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12353" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12355" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 4" id="12367" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 4/audio_in 1">
+          <Connection other="system:capture_4"/>
+        </Port>
+      </IO>
+      <IO name="Audio 4" id="12368" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 4/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 4/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12349" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12351" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12346" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12352" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12354" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12348" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12374" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12376" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12350" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12378" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12358" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12362" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12360" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12364" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12366" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12357" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12359" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12361" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12363" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12365" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12370" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12344" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12345" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12369" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12342" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12343" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12371" name="meter-Audio 4" active="1" user-latency="0" type="meter"/>
+      <Processor id="12372" name="Audio 4" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 4" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12358" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12362" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12360" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12364" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12366" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12357" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12359" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12361" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12363" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12365" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12379" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12377" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12375" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 4.1" name="Audio 4" id="12380" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12387" name="Audio 5" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="9" flags="AudioTrack,OrderSet" color="3285902847"/>
+      <Controllable name="solo" id="12395" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12401" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12403" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 5" id="12415" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 5/audio_in 1">
+          <Connection other="system:capture_5"/>
+        </Port>
+      </IO>
+      <IO name="Audio 5" id="12416" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 5/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 5/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12397" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12399" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12394" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12400" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12402" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12396" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12422" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12424" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12398" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12426" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12406" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12410" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12408" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12412" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12414" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12405" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12407" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12409" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12411" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12413" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12418" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12392" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12393" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12417" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12390" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12391" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12419" name="meter-Audio 5" active="1" user-latency="0" type="meter"/>
+      <Processor id="12420" name="Audio 5" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 5" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12406" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12410" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12408" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12412" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12414" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12405" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12407" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12409" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12411" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12413" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12427" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12425" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12423" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 5.1" name="Audio 5" id="12428" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12435" name="Audio 6" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="3706052095"/>
+      <Controllable name="solo" id="12443" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12449" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12451" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 6" id="12463" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 6/audio_in 1">
+          <Connection other="system:capture_6"/>
+        </Port>
+      </IO>
+      <IO name="Audio 6" id="12464" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 6/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 6/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12445" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12447" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12442" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12448" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12450" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12444" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12470" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12472" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12446" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12474" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12454" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12458" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12456" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12460" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12462" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12453" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12455" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12457" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12459" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12461" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12466" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12440" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12441" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12465" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12438" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12439" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12467" name="meter-Audio 6" active="1" user-latency="0" type="meter"/>
+      <Processor id="12468" name="Audio 6" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 6" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12454" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12458" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12456" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12460" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12462" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12453" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12455" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12457" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12459" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12461" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12475" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12473" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12471" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 6.1" name="Audio 6" id="12476" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12483" name="Audio 7" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="3849485055"/>
+      <Controllable name="solo" id="12491" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12497" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12499" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 7" id="12511" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 7/audio_in 1">
+          <Connection other="system:capture_7"/>
+        </Port>
+      </IO>
+      <IO name="Audio 7" id="12512" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 7/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 7/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12493" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12495" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12490" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12496" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12498" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12492" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12518" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12520" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12494" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12522" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12502" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12506" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12504" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12508" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12510" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12501" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12503" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12505" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12507" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12509" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12514" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12488" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12489" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12513" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12486" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12487" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12515" name="meter-Audio 7" active="1" user-latency="0" type="meter"/>
+      <Processor id="12516" name="Audio 7" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 7" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12502" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12506" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12504" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12508" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12510" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12501" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12503" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12505" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12507" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12509" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12523" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12521" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12519" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 7.1" name="Audio 7" id="12524" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12531" name="Audio 8" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="2800081407"/>
+      <Controllable name="solo" id="12539" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12545" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12547" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 8" id="12559" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 8/audio_in 1">
+          <Connection other="system:capture_8"/>
+        </Port>
+      </IO>
+      <IO name="Audio 8" id="12560" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 8/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 8/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12541" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12543" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12538" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12544" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12546" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12540" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12566" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12568" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12542" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12570" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12550" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12554" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12552" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12556" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12558" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12549" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12551" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12553" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12555" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12557" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12562" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12536" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12537" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12561" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12534" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12535" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12563" name="meter-Audio 8" active="1" user-latency="0" type="meter"/>
+      <Processor id="12564" name="Audio 8" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 8" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12550" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12554" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12552" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12556" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12558" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12549" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12551" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12553" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12555" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12557" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12571" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12569" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12567" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 8.1" name="Audio 8" id="12572" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12579" name="Audio 9" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="13" flags="AudioTrack,OrderSet" color="2020795903"/>
+      <Controllable name="solo" id="12587" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12593" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12595" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 9" id="12607" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 9/audio_in 1">
+          <Connection other="system:capture_11"/>
+        </Port>
+      </IO>
+      <IO name="Audio 9" id="12608" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 9/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 9/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12589" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12591" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12586" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12592" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12594" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12588" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12614" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12616" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12590" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12618" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12598" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12602" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12600" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12604" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12606" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12597" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12599" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12601" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12603" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12605" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12610" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12584" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12585" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12609" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12582" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12583" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12611" name="meter-Audio 9" active="1" user-latency="0" type="meter"/>
+      <Processor id="12612" name="Audio 9" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 9" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12598" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12602" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12600" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12604" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12606" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12597" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12599" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12601" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12603" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12605" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12619" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12617" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12615" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 9.1" name="Audio 9" id="12620" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12627" name="Audio 10" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="14" flags="AudioTrack,OrderSet" color="3851277055"/>
+      <Controllable name="solo" id="12635" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12641" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12643" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 10" id="12655" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 10/audio_in 1">
+          <Connection other="system:capture_12"/>
+        </Port>
+      </IO>
+      <IO name="Audio 10" id="12656" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 10/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 10/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12637" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12639" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12634" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12640" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12642" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12636" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12662" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12664" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12638" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12666" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12646" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12650" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12648" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12652" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12654" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12645" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12647" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12649" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12651" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12653" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12658" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12632" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12633" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12657" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12630" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12631" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12659" name="meter-Audio 10" active="1" user-latency="0" type="meter"/>
+      <Processor id="12660" name="Audio 10" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 10" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12646" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12650" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12648" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12652" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12654" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12645" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12647" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12649" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12651" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12653" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12667" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12665" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12663" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 10.1" name="Audio 10" id="12668" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12675" name="Audio 11" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="15" flags="AudioTrack,OrderSet" color="3755992575"/>
+      <Controllable name="solo" id="12683" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12689" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12691" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 11" id="12703" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 11/audio_in 1">
+          <Connection other="system:capture_13"/>
+        </Port>
+      </IO>
+      <IO name="Audio 11" id="12704" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 11/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 11/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12685" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12687" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12682" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12688" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12690" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12684" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12710" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12712" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12686" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12714" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12694" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12698" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12696" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12700" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12702" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12693" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12695" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12697" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12699" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12701" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12706" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12680" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12681" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12705" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12678" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12679" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12707" name="meter-Audio 11" active="1" user-latency="0" type="meter"/>
+      <Processor id="12708" name="Audio 11" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 11" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12694" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12698" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12696" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12700" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12702" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12693" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12695" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12697" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12699" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12701" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12715" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12713" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12711" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 11.1" name="Audio 11" id="12716" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12723" name="Audio 12" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="16" flags="AudioTrack,OrderSet" color="1953687039"/>
+      <Controllable name="solo" id="12731" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12737" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12739" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 12" id="12751" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 12/audio_in 1">
+          <Connection other="system:capture_14"/>
+        </Port>
+      </IO>
+      <IO name="Audio 12" id="12752" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 12/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 12/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12733" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12735" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12730" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12736" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12738" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12732" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12758" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12760" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12734" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12762" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12742" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12746" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12744" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12748" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12750" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12741" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12743" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12745" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12747" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12749" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12754" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12728" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12729" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12753" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12726" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12727" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12755" name="meter-Audio 12" active="1" user-latency="0" type="meter"/>
+      <Processor id="12756" name="Audio 12" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 12" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12742" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12746" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12744" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12748" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12750" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12741" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12743" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12745" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12747" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12749" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12763" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12761" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12759" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 12.1" name="Audio 12" id="12764" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12771" name="Audio 13" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="2145759487"/>
+      <Controllable name="solo" id="12779" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12785" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12787" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 13" id="12799" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 13/audio_in 1">
+          <Connection other="system:capture_15"/>
+        </Port>
+      </IO>
+      <IO name="Audio 13" id="12800" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 13/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 13/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12781" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12783" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12778" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12784" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12786" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12780" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12806" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12808" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12782" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12810" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12790" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12794" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12792" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12796" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12798" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12789" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12791" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12793" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12795" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12797" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12802" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12776" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12777" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12801" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12774" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12775" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12803" name="meter-Audio 13" active="1" user-latency="0" type="meter"/>
+      <Processor id="12804" name="Audio 13" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 13" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12790" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12794" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12792" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12796" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12798" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12789" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12791" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12793" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12795" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12797" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12811" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12809" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12807" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 13.1" name="Audio 13" id="12812" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12819" name="Audio 14" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="18" flags="AudioTrack,OrderSet" color="3852968959"/>
+      <Controllable name="solo" id="12827" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12833" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12835" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 14" id="12847" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 14/audio_in 1">
+          <Connection other="system:capture_16"/>
+        </Port>
+      </IO>
+      <IO name="Audio 14" id="12848" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 14/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 14/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12829" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12831" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12826" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12832" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12834" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12828" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12854" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12856" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12830" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12858" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12838" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12842" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12840" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12844" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12846" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12837" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12839" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12841" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12843" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12845" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12850" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12824" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12825" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12849" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12822" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12823" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12851" name="meter-Audio 14" active="1" user-latency="0" type="meter"/>
+      <Processor id="12852" name="Audio 14" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 14" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12838" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12842" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12840" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12844" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12846" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12837" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12839" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12841" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12843" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12845" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12859" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12857" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12855" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 14.1" name="Audio 14" id="12860" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12867" name="Audio 15" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="19" flags="AudioTrack,OrderSet" color="3504722175"/>
+      <Controllable name="solo" id="12875" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12881" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12883" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 15" id="12895" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 15/audio_in 1">
+          <Connection other="system:capture_17"/>
+        </Port>
+      </IO>
+      <IO name="Audio 15" id="12896" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 15/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 15/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12877" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12879" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12874" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12880" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12882" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12876" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12902" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12904" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12878" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12906" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12886" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12890" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12888" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12892" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12894" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12885" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12887" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12889" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12891" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12893" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12898" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12872" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12873" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12897" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12870" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12871" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12899" name="meter-Audio 15" active="1" user-latency="0" type="meter"/>
+      <Processor id="12900" name="Audio 15" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 15" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12886" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12890" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12888" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12892" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12894" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12885" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12887" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12889" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12891" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12893" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12907" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12905" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12903" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 15.1" name="Audio 15" id="12908" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
+    </Route>
+    <Route id="12915" name="Audio 16" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" meter-type="MeterPeak" route-group="1" saved-meter-point="MeterPostFader" mode="Normal">
+      <PresentationInfo order="20" flags="AudioTrack,OrderSet" color="2984604415"/>
+      <Controllable name="solo" id="12923" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="12929" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="12931" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Audio 16" id="12943" direction="Input" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 16/audio_in 1">
+          <Connection other="system:capture_18"/>
+        </Port>
+      </IO>
+      <IO name="Audio 16" id="12944" direction="Output" default-type="audio" user-latency="0">
+        <Port type="audio" name="Audio 16/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Audio 16/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="12925" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="12927" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="12922" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="12928" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="12930" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="12924" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="12950" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="12952" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="12926" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="12954" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="12934" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="12938" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="12936" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="12940" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="12942" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="12933" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="12935" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="12937" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="12939" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="12941" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="12946" name="Amp" active="1" user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="12920" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="12921" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12945" name="Amp" active="1" user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="12918" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="12919" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="12947" name="meter-Audio 16" active="1" user-latency="0" type="meter"/>
+      <Processor id="12948" name="Audio 16" active="1" user-latency="0" own-input="1" own-output="0" output="Audio 16" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+        <Pannable>
+          <Controllable name="pan-azimuth" id="12934" flags="" value="0.5"/>
+          <Controllable name="pan-width" id="12938" flags="" value="0"/>
+          <Controllable name="pan-elevation" id="12936" flags="" value="0"/>
+          <Controllable name="pan-frontback" id="12940" flags="" value="0"/>
+          <Controllable name="pan-lfe" id="12942" flags="" value="0"/>
+          <Automation>
+            <AutomationList automation-id="pan-azimuth" id="12933" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-elevation" id="12935" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-width" id="12937" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-frontback" id="12939" interpolation-style="Linear" state="Off"/>
+            <AutomationList automation-id="pan-lfe" id="12941" interpolation-style="Linear" state="Off"/>
+          </Automation>
+        </Pannable>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="12955" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="12953" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="12951" flags="Toggle,RealTime" value="0"/>
+      <Diskstream flags="Recordable" playlist="Audio 16.1" name="Audio 16" id="12956" speed="1" capture-alignment="Automatic" record-safe="0" channels="1"/>
     </Route>
   </Routes>
   <Playlists>
@@ -2856,6 +4214,534 @@ Using the syth violin 1 in the strings yoshimi bank</Comment>
       <Region name="violin-1.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="470400" position="4939200" beat="168" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="4" start-beats="0" length-beats="16" id="8306" type="midi" first-edit="nothing" source-0="8183" master-source-0="8183"/>
       <Region name="violin-1.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="470400" position="5409600" beat="184" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="5" start-beats="0" length-beats="16" id="8309" type="midi" first-edit="nothing" source-0="8183" master-source-0="8183"/>
     </Playlist>
+    <Playlist id="12237" name="Audio 1.1" type="audio" orig-track-id="12195" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 1-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19368" type="audio" first-edit="nothing" source-0="17785" master-source-0="17785" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19369" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19370" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19371" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19372" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12285" name="Audio 2.1" type="audio" orig-track-id="12243" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 2-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19392" type="audio" first-edit="nothing" source-0="17830" master-source-0="17830" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19393" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19394" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19395" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19396" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12333" name="Audio 3.1" type="audio" orig-track-id="12291" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 3-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19416" type="audio" first-edit="nothing" source-0="17875" master-source-0="17875" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19417" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19418" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19419" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19420" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12381" name="Audio 4.1" type="audio" orig-track-id="12339" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 4-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19440" type="audio" first-edit="nothing" source-0="17920" master-source-0="17920" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19441" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19442" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19443" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19444" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12429" name="Audio 5.1" type="audio" orig-track-id="12387" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 5-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19464" type="audio" first-edit="nothing" source-0="17965" master-source-0="17965" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19465" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19466" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19467" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19468" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12477" name="Audio 6.1" type="audio" orig-track-id="12435" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 6-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19489" type="audio" first-edit="nothing" source-0="18010" master-source-0="18010" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19490" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19491" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19492" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19493" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12525" name="Audio 7.1" type="audio" orig-track-id="12483" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 7-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19514" type="audio" first-edit="nothing" source-0="18055" master-source-0="18055" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19515" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19516" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19517" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19518" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12573" name="Audio 8.1" type="audio" orig-track-id="12531" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 8-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19540" type="audio" first-edit="nothing" source-0="18100" master-source-0="18100" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19541" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19542" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19543" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19544" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12621" name="Audio 9.1" type="audio" orig-track-id="12579" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 9-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19565" type="audio" first-edit="nothing" source-0="18145" master-source-0="18145" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19566" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19567" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19568" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19569" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12669" name="Audio 10.1" type="audio" orig-track-id="12627" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 10-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19591" type="audio" first-edit="nothing" source-0="18190" master-source-0="18190" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19592" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19593" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19594" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19595" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12717" name="Audio 11.1" type="audio" orig-track-id="12675" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 11-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19616" type="audio" first-edit="nothing" source-0="18235" master-source-0="18235" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19617" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19618" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19619" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19620" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12765" name="Audio 12.1" type="audio" orig-track-id="12723" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 12-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19641" type="audio" first-edit="nothing" source-0="18280" master-source-0="18280" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19642" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19643" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19644" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19645" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12813" name="Audio 13.1" type="audio" orig-track-id="12771" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 13-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19666" type="audio" first-edit="nothing" source-0="18325" master-source-0="18325" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19668" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19669" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19670" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19671" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12861" name="Audio 14.1" type="audio" orig-track-id="12819" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 14-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19692" type="audio" first-edit="nothing" source-0="18370" master-source-0="18370" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19693" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19694" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19695" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19696" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12909" name="Audio 15.1" type="audio" orig-track-id="12867" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 15-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19717" type="audio" first-edit="nothing" source-0="18415" master-source-0="18415" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19718" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19719" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19720" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19721" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
+    <Playlist id="12957" name="Audio 16.1" type="audio" orig-track-id="12915" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Audio 16-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="15463168" position="10510500" beat="357.5" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="19743" type="audio" first-edit="nothing" source-0="18460" master-source-0="18460" channels="1">
+        <Envelope default="yes"/>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="19744" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="19745" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="19746" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="19747" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists>
     <Playlist id="200" name="Audio.1" type="audio" orig-track-id="158" shared-with-ids="" frozen="0" combine-ops="0">
@@ -2892,7 +4778,9 @@ Using the syth violin 1 in the strings yoshimi bank</Comment>
       </Region>
     </Playlist>
   </UnusedPlaylists>
-  <RouteGroups/>
+  <RouteGroups>
+    <RouteGroup id="19245" rgba="3148997887" used-to-share-gain="0" name="1" hidden="0" active="1" relative="1" gain="1" mute="1" solo="1" recenable="1" select="1" route-active="1" color="1" monitoring="1" group-master-number="-1" routes="12195 12243 12291 12339 12387 12435 12483 12531 12579 12627 12675 12723 12771 12819 12867 12915 "/>
+  </RouteGroups>
   <Click>
     <IO name="Click" id="51" direction="Output" default-type="audio" user-latency="0">
       <Port type="audio" name="Click/audio_out 1">
@@ -2906,7 +4794,7 @@ Using the syth violin 1 in the strings yoshimi bank</Comment>
       <Automation>
         <AutomationList automation-id="gain" id="49" interpolation-style="Linear" state="Off"/>
       </Automation>
-      <Controllable name="gaincontrol" id="50" flags="GainLike" value="1"/>
+      <Controllable name="gaincontrol" id="50" flags="GainLike" value="0.95712333917617798"/>
     </Processor>
   </Click>
   <LTC-In>
@@ -2995,14 +4883,14 @@ Using the syth violin 1 in the strings yoshimi bank</Comment>
       <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="679" y-size="509"/>
       <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="inspector" visible="0" x-off="37" y-off="55" x-size="620" y-size="370"/>
-      <Window name="audio-midi-setup" visible="0" x-off="0" y-off="628" x-size="582" y-size="438"/>
+      <Window name="inspector" visible="0" x-off="57" y-off="57" x-size="620" y-size="370"/>
+      <Window name="audio-midi-setup" visible="0" x-off="0" y-off="109" x-size="582" y-size="438"/>
       <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="script-manager" visible="0" x-off="839" y-off="381" x-size="341" y-size="372"/>
       <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="locations" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="big-clock" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="audio-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="0" x-off="73" y-off="126" x-size="572" y-size="643"/>
       <Window name="midi-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-54" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -3010,6 +4898,22 @@ Using the syth violin 1 in the strings yoshimi bank</Comment>
       <Window name="RPM-1867" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-4499" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-8090" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12195" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12243" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12291" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12339" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12387" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12435" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12483" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12531" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12579" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12627" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12675" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12723" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12771" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12819" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12867" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-12915" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-2028" visible="0" x-off="0" y-off="0" x-size="847" y-size="404" custom-ui="1"/>
@@ -3022,10 +4926,12 @@ Using the syth violin 1 in the strings yoshimi bank</Comment>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-402-433" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-402-432" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-402-10241" visible="0" x-off="416" y-off="171" x-size="858" y-size="713" custom-ui="1"/>
       <Window name="P-402-434" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-402-435" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-433-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-432-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-10241-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-434-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-435-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1867-1898" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -3062,8 +4968,134 @@ Using the syth violin 1 in the strings yoshimi bank</Comment>
       <Window name="PM-8337-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8122-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-8123-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-402-10241" visible="0" x-off="0" y-off="367" x-size="858" y-size="713" custom-ui="1"/>
-      <Window name="PM-10241-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12195-12226" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12195-12225" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12195-12227" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12195-12228" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12226-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12225-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12227-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12228-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12243-12274" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12243-12273" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12243-12275" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12243-12276" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12274-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12273-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12275-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12276-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12291-12322" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12291-12321" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12291-12323" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12291-12324" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12322-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12321-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12323-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12324-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12339-12370" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12339-12369" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12339-12371" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12339-12372" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12370-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12369-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12371-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12372-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12387-12418" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12387-12417" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12387-12419" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12387-12420" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12418-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12417-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12419-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12420-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12435-12466" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12435-12465" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12435-12467" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12435-12468" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12466-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12465-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12467-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12468-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12483-12514" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12483-12513" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12483-12515" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12483-12516" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12514-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12513-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12515-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12516-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12531-12562" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12531-12561" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12531-12563" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12531-12564" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12562-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12561-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12563-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12564-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12579-12610" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12579-12609" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12579-12611" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12579-12612" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12610-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12609-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12611-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12612-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12627-12658" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12627-12657" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12627-12659" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12627-12660" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12658-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12657-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12659-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12660-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12675-12706" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12675-12705" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12675-12707" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12675-12708" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12706-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12705-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12707-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12708-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12723-12754" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12723-12753" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12723-12755" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12723-12756" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12754-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12753-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12755-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12756-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12771-12802" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12771-12801" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12771-12803" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12771-12804" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12802-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12801-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12803-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12804-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12819-12850" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12819-12849" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12819-12851" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12819-12852" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12850-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12849-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12851-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12852-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12867-12898" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12867-12897" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12867-12899" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12867-12900" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12898-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12897-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12899-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12900-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-12915-12946" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12915-12945" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12915-12947" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-12915-12948" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-12946-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12945-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12947-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-12948-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="66" visible="1"/>
         <Object id="automation 58" height="66" visible="0"/>
@@ -3123,6 +5155,134 @@ Using the syth violin 1 in the strings yoshimi bank</Comment>
         </Object>
         <Object id="automation 8109" height="66" visible="0"/>
         <Object id="automation 8113" height="66" visible="0"/>
+        <Object id="rtav 12195" height="66" visible="1"/>
+        <Object id="automation 12199" height="66" visible="0"/>
+        <Object id="automation 12201" height="66" visible="0"/>
+        <Object id="automation 12195 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12214" height="66" visible="0"/>
+        <Object id="rtav 12243" height="66" visible="1"/>
+        <Object id="automation 12247" height="66" visible="0"/>
+        <Object id="automation 12249" height="66" visible="0"/>
+        <Object id="automation 12243 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12262" height="66" visible="0"/>
+        <Object id="rtav 12291" height="66" visible="1"/>
+        <Object id="automation 12295" height="66" visible="0"/>
+        <Object id="automation 12297" height="66" visible="0"/>
+        <Object id="automation 12291 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12310" height="66" visible="0"/>
+        <Object id="rtav 12339" height="66" visible="1"/>
+        <Object id="automation 12343" height="66" visible="0"/>
+        <Object id="automation 12345" height="66" visible="0"/>
+        <Object id="automation 12339 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12358" height="66" visible="0"/>
+        <Object id="rtav 12387" height="66" visible="1"/>
+        <Object id="automation 12391" height="66" visible="0"/>
+        <Object id="automation 12393" height="66" visible="0"/>
+        <Object id="automation 12387 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12406" height="66" visible="0"/>
+        <Object id="rtav 12435" height="66" visible="1"/>
+        <Object id="automation 12439" height="66" visible="0"/>
+        <Object id="automation 12441" height="66" visible="0"/>
+        <Object id="automation 12435 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12454" height="66" visible="0"/>
+        <Object id="rtav 12483" height="66" visible="1"/>
+        <Object id="automation 12487" height="66" visible="0"/>
+        <Object id="automation 12489" height="66" visible="0"/>
+        <Object id="automation 12483 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12502" height="66" visible="0"/>
+        <Object id="rtav 12531" height="66" visible="1"/>
+        <Object id="automation 12535" height="66" visible="0"/>
+        <Object id="automation 12537" height="66" visible="0"/>
+        <Object id="automation 12531 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12550" height="66" visible="0"/>
+        <Object id="rtav 12579" height="66" visible="1"/>
+        <Object id="automation 12583" height="66" visible="0"/>
+        <Object id="automation 12585" height="66" visible="0"/>
+        <Object id="automation 12579 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12598" height="66" visible="0"/>
+        <Object id="rtav 12627" height="66" visible="1"/>
+        <Object id="automation 12631" height="66" visible="0"/>
+        <Object id="automation 12633" height="66" visible="0"/>
+        <Object id="automation 12627 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12646" height="66" visible="0"/>
+        <Object id="rtav 12675" height="66" visible="1"/>
+        <Object id="automation 12679" height="66" visible="0"/>
+        <Object id="automation 12681" height="66" visible="0"/>
+        <Object id="automation 12675 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12694" height="66" visible="0"/>
+        <Object id="rtav 12723" height="66" visible="1"/>
+        <Object id="automation 12727" height="66" visible="0"/>
+        <Object id="automation 12729" height="66" visible="0"/>
+        <Object id="automation 12723 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12742" height="66" visible="0"/>
+        <Object id="rtav 12771" height="66" visible="1"/>
+        <Object id="automation 12775" height="66" visible="0"/>
+        <Object id="automation 12777" height="66" visible="0"/>
+        <Object id="automation 12771 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12790" height="66" visible="0"/>
+        <Object id="rtav 12819" height="66" visible="1"/>
+        <Object id="automation 12823" height="66" visible="0"/>
+        <Object id="automation 12825" height="66" visible="0"/>
+        <Object id="automation 12819 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12838" height="66" visible="0"/>
+        <Object id="rtav 12867" height="66" visible="1"/>
+        <Object id="automation 12871" height="66" visible="0"/>
+        <Object id="automation 12873" height="66" visible="0"/>
+        <Object id="automation 12867 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12886" height="66" visible="0"/>
+        <Object id="rtav 12915" height="66" visible="1"/>
+        <Object id="automation 12919" height="66" visible="0"/>
+        <Object id="automation 12921" height="66" visible="0"/>
+        <Object id="automation 12915 12/0/0" height="66" visible="0"/>
+        <Object id="automation 12934" height="66" visible="0"/>
+        <Object id="strip 12915" strip-width="Wide" visible="1">
+          <Object id="processor 12945"/>
+        </Object>
+        <Object id="strip 12195" visible="1" strip-width="Wide">
+          <Object id="processor 12225"/>
+        </Object>
+        <Object id="strip 12243" visible="1" strip-width="Wide">
+          <Object id="processor 12273"/>
+        </Object>
+        <Object id="strip 12291" visible="1" strip-width="Wide">
+          <Object id="processor 12321"/>
+        </Object>
+        <Object id="strip 12339" visible="1" strip-width="Wide">
+          <Object id="processor 12369"/>
+        </Object>
+        <Object id="strip 12387" visible="1" strip-width="Wide">
+          <Object id="processor 12417"/>
+        </Object>
+        <Object id="strip 12435" visible="1" strip-width="Wide">
+          <Object id="processor 12465"/>
+        </Object>
+        <Object id="strip 12483" visible="1" strip-width="Wide">
+          <Object id="processor 12513"/>
+        </Object>
+        <Object id="strip 12531" visible="1" strip-width="Wide">
+          <Object id="processor 12561"/>
+        </Object>
+        <Object id="strip 12579" visible="1" strip-width="Wide">
+          <Object id="processor 12609"/>
+        </Object>
+        <Object id="strip 12627" visible="1" strip-width="Wide">
+          <Object id="processor 12657"/>
+        </Object>
+        <Object id="strip 12675" visible="1" strip-width="Wide">
+          <Object id="processor 12705"/>
+        </Object>
+        <Object id="strip 12723" visible="1" strip-width="Wide">
+          <Object id="processor 12753"/>
+        </Object>
+        <Object id="strip 12771" visible="1" strip-width="Wide">
+          <Object id="processor 12801"/>
+        </Object>
+        <Object id="strip 12819" visible="1" strip-width="Wide">
+          <Object id="processor 12849"/>
+        </Object>
+        <Object id="strip 12867" visible="1" strip-width="Wide">
+          <Object id="processor 12897"/>
+        </Object>
       </GUIObjectState>
     </UI>
     <Videomonitor active="0"/>
